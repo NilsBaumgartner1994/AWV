@@ -19,7 +19,7 @@
 		"serve:web:local": "npx serve web-build --cors --single",
 		"eject": "expo eject",
 		"deploy:web": "rm -rf node_modules/.cache/gh-pages && gh-pages -d web-build",
-		"predeploy:web": "npm run build:web:pwa",
+		"predeploy:web": "rm -rf .expo/web && rm -rf web-build && npm run build:web:pwa",
 		"prebuild": "npm run licenseSummary",
 		"licenseSummary": "npx license-checker --production --json --summary --direct --out thirdpartyLicense.json"
 	},

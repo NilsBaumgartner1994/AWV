@@ -1,6 +1,6 @@
 export default {
     extra: {
-        BACKEND_URL: process.env.FRONTEND_CUSTOM_URL_FOR_BACKEND || process.env.BACKEND_URL || "https://se-services.informatik.uos.de/hiwis/api",
+        BACKEND_URL: process.env.FRONTEND_CUSTOM_URL_FOR_BACKEND || process.env.BACKEND_URL || "https://nilsbaumgartner.de/awv/api",
         BASE_PATH: process.env.BASE_PATH || "AWV/",
     },
         "scheme": "myapp",

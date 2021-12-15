@@ -10,6 +10,14 @@ export default class Project {
 		return null;
 	}
 
+	static getBackendURL(){
+
+	}
+
+	static getBasePath(){
+
+	}
+
 	static registerRoutes(){
 		// Resource detail
 		RegisteredRoutesMap.registerRoute(Example, BaseTemplate, "Example", "example");

@@ -1,7 +1,7 @@
 export default {
     extra: {
         BACKEND_URL: process.env.FRONTEND_CUSTOM_URL_FOR_BACKEND || process.env.BACKEND_URL || "https://se-services.informatik.uos.de/hiwis/api",
-        BASE_PATH: process.env.BASE_PATH || "myapp/app/",
+        BASE_PATH: process.env.BASE_PATH || "AWV/",
     },
         "scheme": "myapp",
         "name": "KitchenSink-app-native-base",
